@@ -70,6 +70,7 @@ cl ..\src\classes.c %compiler_flags% /link %common_linker_flags% /out:classes.ex
 cl ..\src\crossreferences.c %compiler_flags% /link %common_linker_flags% /out:crossreferences.exe
 cl ..\src\customers.c %compiler_flags% /link %common_linker_flags% /out:customers.exe
 cl ..\src\history.c %compiler_flags% /link %common_linker_flags% /out:producthistory.exe
+cl ..\src\invoices.c %compiler_flags% /link %common_linker_flags% /out:invoices.exe
 
 popd
 exit /b
